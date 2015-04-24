@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppJuego.Dato.HeroesRepositorio" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Dato\HeroesRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Modelo.Alíens" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAACAAAAAwoAAAEIQAACCAAA=</HashCode>
+      <FileName>Modelo\Alíens.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AppJuego.Modelo.Artificiales" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAACAAAAAwoAAAEIQAACCAAA=</HashCode>
+      <FileName>Modelo\Artificiales.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AppJuego.Modelo.Humanos" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAACAAAAAwoAAAEIQAACCAAA=</HashCode>
+      <FileName>Modelo\Humanos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AppJuego.Armas">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEhAVAAAQAAAAAAYAAAAEAAAAAACA=</HashCode>
+      <FileName>Modelo\Armas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Caracterizacion" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAACEgAEAgAAAAAAAAIAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Modelo\Caracterizacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Debilidades">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAEAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Debilidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Habilidades">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAEAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Habilidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Personajes" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEgAAAgAIAAAACAIAAAAAAAACAAAA=</HashCode>
+      <FileName>Modelo\Personajes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Poderes">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEgAEAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Poderes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.SuperHumanos" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAACAAAAAwoAAAEIQAACCAAA=</HashCode>
+      <FileName>Modelo\SuperHumanos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AppJuego.Web.Descripcion" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Web\Descripcion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppJuego.Web.WebForm1" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAIAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Web\Personas.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AppJuego.IFicha">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAA=</HashCode>
+      <FileName>Modelo\IFicha.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
