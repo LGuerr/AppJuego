@@ -7,21 +7,56 @@ namespace AppJuego
 {
     public class Habilidades : Caracterizacion
     {
+        #region Atributos
+        Boolean Agilidad, Evacion, Correr, Saltar;
 
+        public Boolean agilidad
+        {
+            get { return agilidad; }
+            set { Agilidad = value; }
+
+        }
+        public Boolean evacion
+        {
+            get { return evacion; }
+            set { evacion = value; }
+        }
+        public Boolean correr
+        {
+            get { return correr; }
+            set { correr = value; }
+
+        }
+        public Boolean saltar
+        {
+            get { return saltar; }
+            set { saltar = value; }
+        }
         #region Constructores
-        /// <summary>
-        /// Constructor por defecto de Una Habilidad
-        /// </summary>
+
         public Habilidades()
-            : base() { }
+            : base()
+        {
+            this.saltar = true;
+            this.correr = true;
+            this.agilidad = true;
+            this.evacion = true;
+
+        }
 
         /// <summary>
         /// Constructor de Inicializacion de una Habilidad
         /// </summary>
         /// <param name="nombre">Nombre de la Habilidad</param>
         /// <param name="tipo">Tipo de Habilidad</param>
-        public Habilidades(string nombre, string tipo)
-            : base(nombre, tipo) { }
+        public Habilidades(string nombre, string tipo, Boolean saltar, Boolean correr,
+            Boolean agilidad, Boolean evacion)
+            : base(nombre, tipo)
+        {
+            this.evacion = true;
+            this.saltar = true;
+            this.correr = true;
+        }
 
         #endregion
 
@@ -34,10 +69,7 @@ namespace AppJuego
         {
             return base.ToString();
         }
-        ///<summary>
-        ///Retorna verdadero si los objetos comparados son iguales, falso para contario
-        ///</summary>
-        ///<return> Retorna verdadero o falso </return>
+        
         public override bool Equals(object obj)
         {
 
